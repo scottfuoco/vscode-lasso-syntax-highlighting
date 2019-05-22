@@ -1,0 +1,28 @@
+{
+    "name": "lasso",
+    "publisher": "sco",
+    "repository": "https://github.com/scottfuoco/vscode-lasso-syntax-highlighting/blob/master/lasso.png",
+    "displayName": "Lasso Syntax Highlighting",
+    "description": "Syntax highlighting for Lasso 9",
+    "icon": "lasso.png",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.34.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "lasso",
+            "aliases": ["Lasso", "lasso"],
+            "extensions": [".lasso",".html",".inc"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "lasso",
+            "scopeName": "index.html",
+            "path": "./syntaxes/lasso.tmLanguage"
+        }]
+    }
+}
