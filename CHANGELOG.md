@@ -6,4 +6,8 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## [Unreleased]
 
+## [0.0.2] - 2019-05-23
+- Lowered vscode version requirement
+
+## [0.0.1] - 2019-05-22
 - Initial release

@@ -5,9 +5,9 @@
     "displayName": "Lasso Syntax Highlighting",
     "description": "Syntax highlighting for Lasso 9",
     "icon": "lasso.png",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "engines": {
-        "vscode": "^1.34.0"
+        "vscode": "^1.0.0"
     },
     "categories": [
         "Programming Languages"
